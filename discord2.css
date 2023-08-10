@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Whitney Light';
+    src: url('./assets/fonts/whitneylight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url('./assets/fonts/whitneymedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('./assets/fonts/whitneybold.woff') format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+html {
+    font-size: 48%;
+}
+:root {
+    --light-color: #FFF;
+    --dark-color: #23272A;
+    --brand-color: #7289DA;
+    --off-white-color: #f6f6f6;
+    --general-font-size: 2rem;
+    --primary-title-font-size: 4.8rem;
+    --secondary-title-font-size: 4rem;
+    --main-font-family-light: 'Whitney Light', sans-serif;
+    --main-font-family-medium: 'Whitney Medium', sans-serif;
+    --main-font-family-bold: Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --num-of-grid-columns: 4;
+    --section-spacing: 5.6rem 2.4rem;
+    --container-width: 126rem;
+}
+body {
+    font-size: var(--general-font-size);
+    font-family: var(--main-font-family-light);
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.first{
+    background-image: url(img/disc.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 88vh;
+    display: block;
+    position: relative;
+}
+.logo img{
+    height: 4rem;
+    cursor: pointer;
+}
+.headd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.links ul li{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    margin: 8px 18px;
+}
+.links ul li a{
+    color: #fff;
+    transition: 0.5s;
+}
+.links ul li a:hover{
+    transform: ;
+    text-decoration: underline;
+}
+.btn-login{
+    background-color: #fff;
+    color: #23272A;
+    padding: 9px 15px;
+    border-radius: 18px;
+    margin-right: 28px;
+}
+.body{
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   justify-content: center;
+   text-align: center;
+}
+.body1 h1{
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: .2;
+    font-family: var(--main-font-family-bold);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.body1 p{
+    letter-spacing: 1.8;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight:300;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+.btn1{
+    padding: 17px 25px;
+    color: #23272A;
+    background-color: #fff;
+    margin-right: 18px;
+    border-radius: 29px;
+    font-size: 18px;
+    transition: .5s;
+}
+.btn1:hover{
+    color: #7289DA;
+    box-shadow: ;
+}
+.btn1 i{
+    padding-right: 10px;
+}
+.btn2{
+    padding: 17px 25px;
+    background-color: #23272A;
+    color: #fff;
+    border-radius: 29px;
+    font-size: 18px;
+    transition: .5s;
+}
+.btn2:hover{
+    background-color: #424546;
+    box-shadow: ;
+}
+.second{
+    display: flex;
+    margin-top: 16rem;
+    margin-bottom: 15rem;
+}
+.secimg {
+    width: 60%;
+}
+.secimg img{
+    margin-left: 20rem;
+    width: 80%;
+}
+.txt1{
+    margin-top: 5rem;
+    margin-left: 8rem;
+   
+}
+.txt1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+.txt1 p{
+    line-height: 1.5;
+    font-size: 16px;
+    color: #7d7e7e;
+}
+.third{
+    display: flex;
+    margin-top: 16rem;
+    margin-bottom: 15rem;
+    background-color: #ecefee;
+}
+.third .txt1{
+    width: 50%;
+    margin: 18rem;
+}
+.thirdimg img{
+
+    margin-right: 13rem;
+}
+.forth{
+    display: flex;
+    margin-top: 16rem;
+    margin-bottom: 12rem;
+}
+.forthimg {
+    width: 60%;
+}
+.forthimg img{
+    margin-left: 15rem;
+    width: 78%;
+}
+.fifth{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+   background-color: #edeeee;
+}
+.content{
+    margin-top: 12rem;
+}
+.content h2{
+    padding-top: 16rem;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.content p{
+    margin-top: 12px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #7d7e7e;
+}
+.fifthimg{
+
+    grid-column: span 18;
+    width: 100%;   
+    object-fit: cover;
+}
